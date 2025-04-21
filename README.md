@@ -16,7 +16,9 @@ This simple Flask service exposes three endpoints:
    ```
 3. **Run** app.py:
    ``` python3 app.py ```
+
 In a seperate terminal...
+
 4. **Run** the following command:
    ```
    curl -H "Authorization: Bearer SECRET-TOKEN" http://localhost:5000/api/time/city_name
